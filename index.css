@@ -2,3 +2,39 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.nav-items{
+    list-style : none;
+    display: flex;
+}
+
+.nav-items > li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+
+  .nav-logo{
+    width:40px;
+    padding-left: 10px;
+  }
